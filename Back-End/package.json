@@ -1,0 +1,30 @@
+{
+  "name": "ToDoListBackEnd",
+  "version": "1.0.0",
+  "description": "Módulo de backend para desenvolver uma aplicação To-do-List em uma simulação de desafio técnico da Trybe.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedrodev1/ToDoList-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedrodev1/ToDoList-BackEnd/issues"
+  },
+  "homepage": "https://github.com/Pedrodev1/ToDoList-BackEnd#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rescue": "^1.1.31",
+    "mongodb": "^4.1.4",
+    "nodemon": "^2.0.14"
+  }
+}
